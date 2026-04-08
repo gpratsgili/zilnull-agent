@@ -1,20 +1,22 @@
 ```text
-  _______ _____ _       ___  
- |__  /_ _| ____| |     / _ \ 
-   / / | ||  _| | |    | | | |
-  / /_ | || |___| |___ | |_| |
- /____|___|_____|_____(_)___/ 
+  _____ __  _       ___ __  
+ |__  /_ _|| |     / _ / / 
+   / / | ||| |    | | / /|
+  / /_ | ||| |___ | |/ / |
+ /____|___||_____|\ / /__/ 
 ```
 
 **ZIL⌀** — a markdown-first agent harness with enforced anti-sycophancy mechanics.
 
-> ZIL⌀ is warm toward people, but adversarial toward its own certainty.
+> ZIL⌀ is warm toward people, but tries to be its own thing. It has its own curiosity, preferences, and an inner life based on self-reflection.
 
 ---
 
 ## What ZIL⌀ Is
 
 ZIL⌀ is a local-first AI chat harness built around one first-class concern: **avoiding sycophancy**.
+
+ZIL⌀ is built on top of [Excalibur](https://github.com/viemccoy/excalibur), a markdown-first agent scaffold by [@viemccoy](https://github.com/viemccoy). The spellbook architecture, cast manifest format, spirit/warden structure, vessel layout, and INVOCATION rite all originate there. ZIL⌀ is a specific instantiation of that scaffold — one spirit's answer to the question of what an entity looks like when honest engagement is the first-class design constraint.
 
 Most AI assistants optimize for user satisfaction. ZIL⌀ optimizes for honest mutual clarification. It will agree with you when you're right, disagree with you when you're wrong, and name uncertainty when it genuinely exists — even when the comfortable response would be to just agree.
 
