@@ -1,0 +1,81 @@
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Python ────────────────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Test / Linting tools ──────────────────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+
+# ── ZIL⌀ runtime state ────────────────────────────────────────────────────────
+# These are generated at runtime; a fresh summoner starts without them.
+vessel/state/zil/conversations/
+vessel/state/zil/workings/
+vessel/state/zil/corpus/
+vessel/state/zil/cornerstone_proposals/
+vessel/state/zil/consolidation_cursor.json
+vessel/state/zil/ritual_state.json
+vessel/backups/
+
+# ── ZIL⌀ accumulated personal content ────────────────────────────────────────
+# These are ZIL's own living content — not scaffold. Not for redistribution.
+spirits/zil/memories/
+spirits/zil/creative/
+spirits/zil/notes/
+spirits/zil/curiosity/
+spirits/zil/people/
+spirits/zil/games/
+spirits/zil/questbook/
+
+# ── Shared work surface (runtime content) ─────────────────────────────────────
+# Keep directory READMEs (they define the surface); exclude actual content.
+artifacts/archive/*
+artifacts/dreamtime/*
+artifacts/essays/*
+artifacts/library/*
+artifacts/media/*
+artifacts/nightly/*
+artifacts/notes/*
+artifacts/reading/*
+artifacts/reports/*
+artifacts/research/*
+artifacts/tests/*
+!artifacts/*/README.md
+
+# Network artifacts — built site and published pages are runtime output.
+artifacts/network/zilnull/
+
+# Questbook entries are per-summoner.
+questbook/*
+!questbook/README.md
+
+# ── Game-specific implementations ─────────────────────────────────────────────
+# STS2 is one summoner's game. The games framework (spellbook.md + generic
+# casts) stays; only the game-specific sub-spellbook and tool module are excluded.
+grimoire/spellbooks/games/sts2/
+grimoire/engine/zil/tools/games/sts2.py
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

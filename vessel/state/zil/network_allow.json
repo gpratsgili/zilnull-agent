@@ -1,0 +1,5 @@
+{
+  "allowed_domains": [],
+  "updated_at": "2026-04-06",
+  "note": "Add domains here to enable outbound web access. Example: \"brave.com\", \"wikipedia.org\". Subdomains are included automatically."
+}
